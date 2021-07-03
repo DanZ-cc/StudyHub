@@ -1,5 +1,5 @@
 body {
-  margin: auto;
+  margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
@@ -116,47 +116,19 @@ label #sidebar_btn:hover {
   width: 80px;
 }
 
-.main {
+.content {
+  margin-left: 250px;
+  background: url(../images/pexels-photo-169573.jpeg) no-repeat;
   background-position: center;
   background-size: cover;
-  margin-top: 70px;
-  margin-left: 250px;
-  margin-right: auto;
   height: 100vh;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
   transition: 0.5s;
 }
 
-#check:checked ~ .main {
-  margin: 60px;
+#check:checked ~ .content {
+  margin-left: 60px;
 }
 
 #check {
   display: none;
-}
-
-#main-page {
-  width: 560px;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#title {
-  font-size: 20px;
-  text-align: center;
-  color: #2f323a;
-}
-
-#link {
-  width: 560px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
